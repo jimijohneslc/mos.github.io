@@ -1,0 +1,197 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Instructions for speech quality evaluation</title>
+    <style type="text/css">
+body, input, select, td, li, div, textarea, p {
+	font-size: 11px;
+	line-height: 16px;
+	font-family: verdana, arial, sans-serif;
+}
+
+body {
+	margin:5px;
+	background-color:white;
+}
+
+h1 {
+	font-size:16px;
+	font-weight:bold;
+}
+
+h2 {
+	font-size:14px;
+	font-weight:bold;
+}
+    </style>
+  </head>
+
+  <body>
+    <h1 align="center">Instructions for speech quality evaluation</h1>
+    <h2>Introduction</h2>
+    <p>Your task is to evaluate the subjective quality of the speech from short (2-8 second) audio files. Each HIT can be completed in roughly around 120 seconds.</p>
+
+    <h2>Payment</h2>
+    <p>We have methods that analyze the consistency of your answers with respect to themselves, to those of your fellow workers and to references we know to be accurate. We will use these methods to rank the submitted assignments according to quality.
+    <p>For this experiment we will pay a base reward of $0.20/HIT for every accepted HIT. You will receive a bonus of:</p>
+    <ul>
+      <li>$0.05/HIT (for a total of $0.25/HIT) if you submit 12 or more HITs or</li>
+      <li>$0.10/HIT (for a total of $0.30/HIT) if you submit 12 or more HITs and your results are among the top 50% or</li>
+      <li>$0.20/HIT (for a total of $0.35/HIT) if you submit 12 or more HITs and your results are among the top 10%.</li>
+    </ul>
+
+    <p>Bonuses will be paid up to 7 days after submission, because we can only rank the submissions once we have a statistically significant number of answers. The base reward will always be paid within 48 hours of submission.</p>
+
+    <h2>Task Instructions</h2>
+    <p>In this task you will hear samples of speech recordings. The purpose of this test is to evaluate the quality of each file in terms of three criteria: i) consider <b>only</b> the level of distortion in the recording, ii) consider <b>only</b> the level of background noise, iii) consider the overall quality of recording. </p>
+    <p>Please keep in mind that speech samples can be distorted and noisy, however these are only specific examples. Please use a headset for listening and adjust your volume level to your comfort during this training, and do not change later during the experiment.</p>
+    <p>You will be presented to each file three times, and you should give a score according to the following scale, known as the MOS (mean opinion score) scales:</p>
+    <p> With respect to distortion: </p>
+      <table>
+        <tbody>
+          <tr>
+            <td align="center" width="100"><b>Score</b></td>
+            <td width="300"><b>Level of Distortion</b></td>
+          </tr>
+          <tr>
+            <td align="center">5</td>            
+            <td>Not distorted</td>
+          </tr>
+          <tr>
+            <td align="center">4</td>            
+            <td>Slightly distorted</td>
+          </tr>
+          <tr>
+            <td align="center">3</td>            
+            <td>Somewhat distorted</td>
+          </tr>
+          <tr>
+            <td align="center">2</td>            
+            <td>Fairly distorted</td>
+          </tr>
+          <tr>
+            <td align="center">1</td>            
+	          <td>Very distorted</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p> With respect to the intrussiveness of background noise:</p>
+      <table>
+        <tbody>
+          <tr>
+            <td align="center" width="100"><b>Score</b></td>            
+            <td width="300"><b>Level of background noise</b></td>
+          </tr>
+          <tr>
+            <td align="center">5</td>            
+            <td>Not noticable</td>
+          </tr>
+          <tr>
+            <td align="center">4</td>            
+            <td>Slightly noticable</td>
+          </tr>
+          <tr>
+            <td align="center">3</td>            
+            <td>Noticable but not intrusive</td>
+          </tr>
+          <tr>
+            <td align="center">2</td>            
+            <td>Somewhat intrusive</td>
+          </tr>
+          <tr>
+            <td align="center">1</td>            
+            <td>Very intrusive</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p> With respect to the overall quality:</p>
+      <table>
+        <tbody>
+          <tr>
+            <td align="center" width="100"><b>Score</b></td>
+            <td width="200"><b>Quality of the speech</b></td>          
+          </tr>
+          <tr>
+            <td align="center">5</td>
+            <td>Excellent</td>            
+          </tr>
+          <tr>
+            <td align="center">4</td>
+            <td>Good</td>            
+          </tr>
+          <tr>
+            <td align="center">3</td>
+            <td>Fair</td>            
+          </tr>
+          <tr>
+            <td align="center">2</td>
+            <td>Poor</td>            
+          </tr>
+          <tr>
+            <td align="center">1</td>
+            <td>Bad</td>            
+          </tr>
+        </tbody>
+      </table>
+
+      <p><b>IMPORTANT:</b> Note that some of the sentences truncate unexpectedly, which is OK. </p>
+
+      <h2>Example</h2>
+      <h3>Level of distortion:</h3>
+      <p>The following recording represents a speech recordings with a reference score for Level of distortion: <b>5.0 (Not distorted)</b>.</p>
+      <audio controls style="width: 400px;">
+        <source src=samples/NotDistorted.wav type="audio/wav">
+        Your browser does not support the audio element.
+      </audio>
+
+      <p>The following recording represents a speech recordings with a reference score for Level of distortion: <b>1.0 (Very distorted)</b>.</p>      
+      <audio controls style="width: 400px;">
+        <source src=samples/VeryDistorted.wav type="audio/wav">
+        Your browser does not support the audio element.
+      </audio>
+
+      <h3>Level of background noise:</h3>
+      <p>The following recording represents a speech recordings with a reference score for Level of background noise: <b>5.0 (Not noticeable)</b>.</p>      
+      <audio controls style="width: 400px;">
+        <source src=samples/NotNoticible.wav type="audio/wav">
+        Your browser does not support the audio element.
+      </audio>
+
+      <p>The following recording represents a speech recordings with a reference score for Level of background noise: <b>4.0 (Slightly noticeable)</b>.</p>      
+      <audio controls style="width: 400px;">
+        <source src=samples/SlightlyNoticible.wav type="audio/wav">
+        Your browser does not support the audio element.
+      </audio>
+
+      <p>The following recording represents a speech recordings with a reference score for Level of background noise: <b>1.0 (Very intrusive)</b>.</p>      
+      <audio controls style="width: 400px;">
+        <source src=samples/VeryIntrusive.wav type="audio/wav">
+        Your browser does not support the audio element.
+      </audio>
+      <h3>Overall quality:</h3>
+      <p>The following recording represents a speech recordings with a reference score for overall quality: <b>5.0 (Excellent)</b>.</p>            
+      <audio controls style="width: 400px;">
+        <source src=samples/Excellent.wav type="audio/wav">
+        Your browser does not support the audio element.
+      </audio>
+
+      <p>The following recording represents a speech recordings with a reference score for overall quality: <b>1.0 (Bad)</b>.</p>        
+      <audio controls style="width: 400px;">
+        <source src=samples/BadBackground.wav type="audio/wav">
+        Your browser does not support the audio element.
+      </audio>
+
+      <p>The following recording represents a speech recordings with a reference score for overall quality: <b>1.0 (Bad)</b>.</p>        
+      <audio controls style="width: 400px;">
+        <source src=samples/BadSpeaker.wav type="audio/wav">
+        Your browser does not support the audio element.
+      </audio>
+
+      <h2>Approval/Rejection Policy</h2>      
+      <p>Your results will be collected and evaluated for consistency. We (the requesters) have an estimate of each file's subjective quality that conforms with the references above. Thus, we can detect if someone submits random scores or does not rate according to these instructions, which can lead to work being rejected. You can rest assured that your work will be approved if you rate according to the instructions above.</p>
+      <p>Answers will be either reviewed or automatically approved within 48 hours.</p>
+</body>
+</html>
+
